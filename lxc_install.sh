@@ -44,7 +44,7 @@ msg_ok "Docker & Compose installation completed"
 
 msg_info "Cloning Gshare project"
 cd /opt
-git clone -b docker https://github.com/wooooooooooook/gshare-manager.git
+git clone -b docker https://github.com/noridev/gshare-manager.git
 cd gshare-manager
 msg_ok "Gshare project cloning completed"
 

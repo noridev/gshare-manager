@@ -22,12 +22,12 @@ GShare Manager는 Proxmox 환경에서 Android VM을 효율적으로 관리하�
 ## 설치 방법
 ### 자동 설치
 - proxmox node shell에 입력
-- `bash -c "$(wget -qLO - https://raw.githubusercontent.com/wooooooooooook/gshare-manager/refs/heads/main/lxc_update.sh)"`
+- `bash -c "$(wget -qLO - https://raw.githubusercontent.com/noridev/gshare-manager/refs/heads/main/lxc_update.sh)"`
 - proxmox community script로 만들었습니다. apline linux CT에 docker환경으로 설치됩니다.
 
 ### 수동 설치
 - SMB포트(445) 사용이 가능한 도커환경
-- 본 저장소를 clone후 `git clone -b docker https://github.com/wooooooooooook/gshare-manager.git`
+- 본 저장소를 clone후 `git clone -b docker https://github.com/noridev/gshare-manager.git`
 - `cd gshare-manager && docker compse up -d --build`
 
 ## 설치 후
